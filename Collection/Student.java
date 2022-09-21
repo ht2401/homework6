@@ -93,8 +93,8 @@ public class Student {
         return mathScore + physicsScore + chemistryScore;
     }
 
-    public int hashCode() {
-        return Objects.hash(chemistryScore, physicsScore, mathScore, name, id, className, dateOfBirth);
-    }
+//     public int hashCode() {
+//         return Objects.hash(chemistryScore, physicsScore, mathScore, name, id, className, dateOfBirth);
+//     }
 
 }
