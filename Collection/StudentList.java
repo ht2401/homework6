@@ -26,7 +26,7 @@ public class StudentList {
             }
         }
         if (student != null) {
-            studentArrayList.remove(student);
+            studentArrayList.indexOf(student);
         } else {
             System.out.println("Ko tồn tại sinh viên có id " + id);
         }
